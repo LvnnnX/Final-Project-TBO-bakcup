@@ -5,12 +5,12 @@ K -> S P O Pel
 K -> S P Ket
 K -> S P O Ket
 S -> NP
-P -> VP  | AdjP | Adjp VP
-O -> NP
-Pel -> AdjP | PP
+P -> VP | AdjP | Adjp VP
+O -> NP | Noun
+Pel -> AdjP | PP | VP
 Ket -> PP
 NP -> PropNoun | NP Noun | Pronoun | Noun | Num NP | NP ProNoun | NP PropNoun | NP Adj | NP Verb
-VP -> Verb | Adv VP | AdjP VP
+VP -> Verb | Adv VP | AdjP VP | Verb Noun | AdjP | Adj
 AdjP -> Adj | Adv AdjP | Adj Adv | Adj Pronoun
 PP -> Prep NP | Prep AdjP | Prep Num
 Adj -> larut | lambat | lama | singkat | perlahan | mendadak | baru | kuno | antik | primitif | lawas | lelet | dekat | jauh | akrab | lebat | rapat | besar | sempit | luas | bangga | bosan | takut | ngeri | kesal | sedih | segan | ragu-ragu | kagum | benci | berani | lembut | gembira | serius | iba | jahat | merdu | lezat | harum | semerbak | manis | asam | tampan | serak | bising | nyaring | tajam | kasar | licin | halus | tebal | pahit | dingin | rapi | basah | lebar | hebat | suka | suntuk
