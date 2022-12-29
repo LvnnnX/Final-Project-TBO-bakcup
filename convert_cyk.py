@@ -37,8 +37,8 @@ def is_accepted(inputString):
                         if (val in tempList and key not in resultList):
                             resultList.append(key)
                 TRIANGULAR_TABLE[(j,j+len(inputString) - i)] = resultList
-    for key,(value,inside) in enumerate(TRIANGULAR_TABLE.items()):
-        print(value,inside)
+    # for key,(value,inside) in enumerate(TRIANGULAR_TABLE.items()):
+    #     print(value,inside)
     if "K" in TRIANGULAR_TABLE[(1, len(inputString))]:
         return 1
     else:

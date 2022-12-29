@@ -17,7 +17,7 @@ def remove_unit_production(keyList):
 def get_set_of_production():
     global RESULT
     RESULT.clear()
-    f = open("E:\\Folder_apps\\NGODING\\Python\\Final-Project-TBO-main\\file_kata\\rule_list.txt", "r", encoding="utf-8")
+    f = open("C:\\NGODING\\Python\\Final-Project-TBO-bakcup-main\\rule_list.txt", "r", encoding="utf-8")
     for lines in f:
         line = lines.splitlines()
         line = line[0].split(" -> ")
